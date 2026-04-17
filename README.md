@@ -1,5 +1,26 @@
-# Proyecto 6: Computer Vision
+# Facial Login System with DeepFace
 
-*Escribe aquí una breve descripción de tu proyecto*
+## Descripción
+Este proyecto implementa un sistema de reconocimiento facial para verificar la identidad de un usuario.
 
-*Escribe un instructivo de cómo podemos utilizar tu software (incluye instrucciones para crear entorno virtual)*
+## Requisitos
+
+Instalar dependencias:
+
+pip install -r requirements.txt
+
+## Ejecución
+
+python main.py
+
+## Funcionamiento
+
+El sistema compara dos imágenes:
+
+- Una imagen registrada (database/usuario.jpg)
+- Una imagen de prueba (test.jpg)
+
+Y determina si son la misma persona:
+
+- ✅ Acceso concedido
+- ❌ Acceso denegado
